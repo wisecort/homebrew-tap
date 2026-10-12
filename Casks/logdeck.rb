@@ -1,9 +1,9 @@
 cask "logdeck" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.1.0"
-  sha256 arm:   "e4b2d045b848774c515ed662a43adee80b8190cacae02b0b1c0515a5279e2c83",
-         intel: "e6a5e9f6b330f7d4504575dea9a12d62336ed07b6d178559af9f03a82e51ad29"
+  version "1.2.0"
+  sha256 arm:   "b20a626a39fabdae2d0a530bb6c391277c170aa412abb45ab30685eff417726d",
+         intel: "8ec48b181853572f97a30bc09a89a5ab4bd33259221802712ef3579bfd35efd8"
 
   url "https://github.com/wisecort/LogDeck/releases/download/v#{version}/LogDeck-#{version}-#{arch}.dmg"
   name "LogDeck"
